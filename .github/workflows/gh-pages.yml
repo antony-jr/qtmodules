@@ -16,8 +16,12 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
+      
+
       - name: Build
-        run: python gensite.py
+        run: |
+          ./scripts/make_repo.sh 
+          python gensite.py
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

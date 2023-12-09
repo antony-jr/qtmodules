@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>QArchive - MSVC 2019</DisplayName>
+    <Description>Qt Wrapper for LibArchive (Prebuilt for MSVC 2019)</Description>
+    <Version>2.2.8</Version>
+    <ReleaseDate>2023-12-10</ReleaseDate>
+    <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
+    <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
+    <Virtual>True</Virtual>
+    <Licenses>
+        <License name="License Agreement" file="license.txt" />
+    </Licenses>
+    <Script>installscript.js</Script>
+</Package>
