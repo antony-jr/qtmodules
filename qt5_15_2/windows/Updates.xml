@@ -1,0 +1,49 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>in.antonyjr.libarchive.windows.x64.msvc2019</Name>
+  <DisplayName>LibArchive - MSVC 2019</DisplayName>
+  <Description>LibArchive (Prebuilt for MSVC 2019)</Description>
+  <Version>3.6.2</Version>
+  <ReleaseDate>2023-12-10</ReleaseDate>
+  <Virtual>True</Virtual>
+  <Script>installscript.js</Script>
+  <UpdateFile UncompressedSize="46764116" CompressedSize="9334463" OS="Any"/>
+  <DownloadableArchives>msvc2019.7z</DownloadableArchives>
+  <Licenses>
+   <License name="License Agreement" file="license.txt"/>
+  </Licenses>
+  <SHA1>436851a94e23a4bf760a30a9a43ed0d05c4dffde</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>in.antonyjr.QArchive</Name>
+  <DisplayName>QArchive</DisplayName>
+  <Description>Qt Wrapper for LibArchive</Description>
+  <Version>2.2.8</Version>
+  <ReleaseDate>2023-12-10</ReleaseDate>
+  <Default>script</Default>
+  <Script>installscript.js</Script>
+  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
+  <SHA1>1b29acf0b2d63e9f49660296e80cead26f7c2a06</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
+  <DisplayName>QArchive - MSVC 2019</DisplayName>
+  <Description>Qt Wrapper for LibArchive (Prebuilt for MSVC 2019)</Description>
+  <Version>2.2.8</Version>
+  <ReleaseDate>2023-12-10</ReleaseDate>
+  <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
+  <Virtual>True</Virtual>
+  <Script>installscript.js</Script>
+  <UpdateFile UncompressedSize="2119925" CompressedSize="893634" OS="Any"/>
+  <DownloadableArchives>msvc2019.7z</DownloadableArchives>
+  <Licenses>
+   <License name="License Agreement" file="license.txt"/>
+  </Licenses>
+  <SHA1>984745d39cb3120b07e41c24113f3c6a495dd54c</SHA1>
+ </PackageUpdate>
+ <SHA1>b031d97439b1878b063ed6400eb97b062081b722</SHA1>
+ <MetadataName>2023-12-09-2201_meta.7z</MetadataName>
+</Updates>
