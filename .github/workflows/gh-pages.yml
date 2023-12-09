@@ -28,7 +28,7 @@ jobs:
                libxcb-keysyms1-dev libxcb-res0-dev \
                libxcb-image0 libx11-dev \
                libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev \
-               libxcb-shape0-dev libxcb-xkb-dev libxcb-render-util0
+               libxcb-shape0-dev libxcb-xkb-dev libxcb-render-util0 libxkbcommon-x11-dev
 
           ./scripts/make_repo.sh 
           python gensite.py
