@@ -1,3 +1,6 @@
+# Ignore generate repos and data
+repositories/qt*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
