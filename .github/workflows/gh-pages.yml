@@ -26,7 +26,9 @@ jobs:
                librsvg2-dev librsvg2-bin liblzma-dev \
                libxrender-dev libxcb-icccm4-dev \
                libxcb-keysyms1-dev libxcb-res0-dev \
-               libxcb-image0 libx11-dev libxcb-dev
+               libxcb-image0 libx11-dev \
+               libxcb-randr0-dev libxcb-xtest0-dev libxcb-xinerama0-dev \
+               libxcb-shape0-dev libxcb-xkb-dev
 
           ./scripts/make_repo.sh 
           python gensite.py
