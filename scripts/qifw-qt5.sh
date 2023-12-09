@@ -5,6 +5,8 @@ wget -O installer.bin "https://download.qt.io/official_releases/qt-installer-fra
 
 chmod +x installer.bin
 
+ldd installer.bin
+
 ./installer.bin in -t "$PWD/qifw" --am -c --al
 
 rm -rf installer.bin
