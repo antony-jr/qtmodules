@@ -4,15 +4,14 @@ function Component() {
     // Log the Qt version to the installer log
     //installer.setValue("QtVersion", qtVersion);
     //console.log("Qt version: " + qtVersion);
-    var files = QDesktopServices.findFiles(".", "5.15.*");
-    var path = "@RootDir@\\";
+    var path = installer.value("RootDir") + "\\";
 
-    if (files.length == 1) {
-        path = path + files[0];
+    if (installer.fileExists("5.15.2")) {
+        path = path + "5.15.2";
     } else {
         path = path + "QArchive";
     }
-
+    
     console.log("Path: " + path);
 
     /*
