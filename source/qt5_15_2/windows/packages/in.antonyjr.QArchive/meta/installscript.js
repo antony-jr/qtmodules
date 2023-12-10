@@ -4,14 +4,14 @@ function Component() {
     // Log the Qt version to the installer log
     //installer.setValue("QtVersion", qtVersion);
     //console.log("Qt version: " + qtVersion);
-    var path = installer.value("RootDir") + "\\";
+    var path = installer.value("InstallerDirPath");
 
     if (installer.fileExists("5.15.2")) {
         path = path + "5.15.2";
     } else {
         path = path + "QArchive";
     }
-    
+
     console.log("Path: " + path);
 
     /*
