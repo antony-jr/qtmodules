@@ -7,11 +7,14 @@ function Component() {
     var path = installer.value("InstallerDirPath");
 
     if (installer.fileExists("5.15.2")) {
-        path = path + "\\5.15.2";
+        path = path + "/5.15.2";
+    } else if(installer.fileExists("5.15.3")) {
+        path = path + "/5.15.3";   
     } else {
-        path = path + "\\QArchive";
+        path = path + "/QArchive";
     }
 
+    installer.setValue("QtInstallDir", path)
     console.log("Path: " + path);
 
     /*
