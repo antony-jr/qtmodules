@@ -10,12 +10,12 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="46764116" CompressedSize="9334534" OS="Any"/>
+  <UpdateFile OS="Any" CompressedSize="9334523" UncompressedSize="46764116"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
   <Licenses>
-   <License file="license.txt" name="LibArchive License Agreement"/>
+   <License file="LIBARCHIVE_LICENSE.txt" name="LibArchive License Agreement"/>
   </Licenses>
-  <SHA1>bea6c0175ea66bda4aff21470e5db7270b9416e9</SHA1>
+  <SHA1>e3d3a3a46983b87ee4e7d84e5fd029212c689fe5</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive</Name>
@@ -25,11 +25,11 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Default>script</Default>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
+  <UpdateFile OS="Any" CompressedSize="0" UncompressedSize="0"/>
   <Licenses>
-   <License file="qarchive_license.txt" name="QArchive License Agreement"/>
+   <License file="QARCHIVE_LICENSE.txt" name="QArchive License Agreement"/>
   </Licenses>
-  <SHA1>789f43a1908163ed2ed2c616ab1eabfd73bcc251</SHA1>
+  <SHA1>998d4b9cdbf212586a716885346b49596615a101</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
@@ -40,13 +40,10 @@
   <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="2119925" CompressedSize="893636" OS="Any"/>
+  <UpdateFile OS="Any" CompressedSize="893630" UncompressedSize="2119925"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
-  <Licenses>
-   <License file="license.txt" name="License Agreement"/>
-  </Licenses>
-  <SHA1>2d4301b66ba378cafce5fce6706a3a6885e3be06</SHA1>
+  <SHA1>cfd82291d7ad9a5cb49ce8a200bda535a7315298</SHA1>
  </PackageUpdate>
- <SHA1>3f8535409f4554982d732405a96da28ec288da79</SHA1>
- <MetadataName>2023-12-10-0935_meta.7z</MetadataName>
+ <SHA1>d3d3ed88a47728ac72e8b1d1828c3d5582211e61</SHA1>
+ <MetadataName>2023-12-10-1059_meta.7z</MetadataName>
 </Updates>
