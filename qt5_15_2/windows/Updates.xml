@@ -10,12 +10,12 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="46764116" CompressedSize="9334528" OS="Any"/>
+  <UpdateFile UncompressedSize="46764116" OS="Any" CompressedSize="9334528"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
   <Licenses>
-   <License name="License Agreement" file="license.txt"/>
+   <License file="license.txt" name="License Agreement"/>
   </Licenses>
-  <SHA1>67f7416ff135f1430751133162b2063637698ca4</SHA1>
+  <SHA1>9df2a87b19a7a63420e41e31f390b310deb80bd2</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive</Name>
@@ -25,11 +25,12 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Default>script</Default>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
+  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
   <Licenses>
-   <License name="License Agreement" file="license.txt"/>
+   <License file="qarchive_license.txt" name="QArchive License Agreement"/>
+   <License file="libarchive_license.txt" name="LibArchive License Agreement"/>
   </Licenses>
-  <SHA1>65f14e504ec7afe4cb0cc67e6d2d243dae48daf1</SHA1>
+  <SHA1>a3b5d5e0af48aa4b7ca694ca23021e9a9ed68b85</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
@@ -40,13 +41,13 @@
   <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="2119925" CompressedSize="893630" OS="Any"/>
+  <UpdateFile UncompressedSize="2119925" OS="Any" CompressedSize="893640"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
   <Licenses>
-   <License name="License Agreement" file="license.txt"/>
+   <License file="license.txt" name="License Agreement"/>
   </Licenses>
-  <SHA1>d0c033512947c845583c16e0e5702fa8adc7069a</SHA1>
+  <SHA1>3d1ade3fd742cf1860b68b1e7718b8e78cdc4f02</SHA1>
  </PackageUpdate>
- <SHA1>e9772fcb49c0fe76f5dc0c8fb10959c3b1814490</SHA1>
- <MetadataName>2023-12-10-0856_meta.7z</MetadataName>
+ <SHA1>021682b965a82850ed3cde35a96355e5efc37af7</SHA1>
+ <MetadataName>2023-12-10-0911_meta.7z</MetadataName>
 </Updates>
