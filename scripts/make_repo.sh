@@ -2,6 +2,9 @@
 
 ./scripts/qifw-qt5.sh
 
+# Update all XMLS
+./scripts/update_xmls.py
+
 # Include Qttools in PATH
 PATH=$PATH:$PWD/qifw/bin
 

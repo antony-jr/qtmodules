@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>QArchive</DisplayName>
-    <Description>Qt Wrapper for LibArchive</Description>
-    <Version>2.2.8</Version>
-    <ReleaseDate>2023-12-10</ReleaseDate>
-    <Name>in.antonyjr.QArchive</Name>
-    <Default>script</Default>
-    <Script>installscript.js</Script>
-    <Licenses>
-        <License name="QArchive License Agreement" file="QARCHIVE_LICENSE.txt" />
-    </Licenses> 
- </Package>
+   <DisplayName>QArchive</DisplayName>
+   <Description>Qt Wrapper for LibArchive</Description>
+   <Version>2.2.8</Version>
+   <ReleaseDate>2023-12-10</ReleaseDate>
+   <Name>in.antonyjr.QArchive</Name>
+   <Default>script</Default>
+   <Script>installscript.js</Script>
+   <Licenses>
+       <License name="QArchive License Agreement" file="QARCHIVE_LICENSE.txt" />
+   </Licenses>
+</Package>
