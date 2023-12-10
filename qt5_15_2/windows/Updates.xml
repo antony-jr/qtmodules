@@ -10,12 +10,12 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="46764116" CompressedSize="9334526" OS="Any"/>
+  <UpdateFile UncompressedSize="46764116" CompressedSize="9334525" OS="Any"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
   <Licenses>
-   <License file="LIBARCHIVE_LICENSE.txt" name="LibArchive License Agreement"/>
+   <License name="LibArchive License Agreement" file="LIBARCHIVE_LICENSE.txt"/>
   </Licenses>
-  <SHA1>9abefce58f1b50d95b2ffd3e4b850df8e2c66b0c</SHA1>
+  <SHA1>d6cd83d5000108739ec9acc7f0da82645c1b8f19</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive</Name>
@@ -27,9 +27,9 @@
   <Script>installscript.js</Script>
   <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
   <Licenses>
-   <License file="QARCHIVE_LICENSE.txt" name="QArchive License Agreement"/>
+   <License name="QArchive License Agreement" file="QARCHIVE_LICENSE.txt"/>
   </Licenses>
-  <SHA1>efc1de2ac4bdb1852a5b1dd8893d585f1c7b3161</SHA1>
+  <SHA1>0664f44f1a2d025ed5a9128129f3318df79ec131</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
@@ -42,8 +42,8 @@
   <Script>installscript.js</Script>
   <UpdateFile UncompressedSize="2120237" CompressedSize="892171" OS="Any"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
-  <SHA1>29f0208466bec8395ee58127b0302c3fc05d17c1</SHA1>
+  <SHA1>7c22a4fad54dd9e5d976169bc4abdeb466db1829</SHA1>
  </PackageUpdate>
- <SHA1>b061154fcb577a94d32258e2144c6345c2737bdf</SHA1>
- <MetadataName>2023-12-10-1714_meta.7z</MetadataName>
+ <SHA1>15c0743eeb00233c56cbd8d49f5cf848f191fb4e</SHA1>
+ <MetadataName>2023-12-10-1717_meta.7z</MetadataName>
 </Updates>
