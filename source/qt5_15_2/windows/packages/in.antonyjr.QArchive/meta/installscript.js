@@ -7,9 +7,9 @@ function Component() {
     var path = installer.value("InstallerDirPath");
 
     if (installer.fileExists("5.15.2")) {
-        path = path + "5.15.2";
+        path = path + "\\5.15.2";
     } else {
-        path = path + "QArchive";
+        path = path + "\\QArchive";
     }
 
     console.log("Path: " + path);

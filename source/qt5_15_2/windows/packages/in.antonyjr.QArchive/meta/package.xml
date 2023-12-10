@@ -9,6 +9,5 @@
     <Script>installscript.js</Script>
     <Licenses>
         <License name="QArchive License Agreement" file="qarchive_license.txt" />
-        <License name="LibArchive License Agreement" file="libarchive_license.txt" />
     </Licenses> 
  </Package>

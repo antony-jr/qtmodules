@@ -7,7 +7,7 @@
     <Name>in.antonyjr.libarchive.windows.x64.msvc2019</Name>
     <Virtual>True</Virtual>
     <Licenses>
-        <License name="License Agreement" file="license.txt" />
+        <License name="LibArchive License Agreement" file="license.txt" />
     </Licenses>
     <Script>installscript.js</Script>
 </Package>
