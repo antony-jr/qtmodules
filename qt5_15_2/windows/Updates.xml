@@ -10,12 +10,12 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile CompressedSize="9334535" OS="Any" UncompressedSize="46764116"/>
+  <UpdateFile OS="Any" CompressedSize="9334527" UncompressedSize="46764116"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
   <Licenses>
    <License file="license.txt" name="License Agreement"/>
   </Licenses>
-  <SHA1>c458f1279179c0d4b5c8c259b1b000b172fe2d14</SHA1>
+  <SHA1>c103717dc3b5bc64cf27b00fb088351c3c7c9496</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive</Name>
@@ -25,11 +25,8 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Default>script</Default>
   <Script>installscript.js</Script>
-  <UpdateFile CompressedSize="0" OS="Any" UncompressedSize="0"/>
-  <Licenses>
-   <License file="license.txt" name="License Agreement"/>
-  </Licenses>
-  <SHA1>8df5e2b8bfa3a0eca42b2477b36982ff5eb8b3bb</SHA1>
+  <UpdateFile OS="Any" CompressedSize="0" UncompressedSize="0"/>
+  <SHA1>493ac95608bbb20af964e658f545e77529cd4d01</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
@@ -40,13 +37,13 @@
   <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile CompressedSize="893637" OS="Any" UncompressedSize="2119925"/>
+  <UpdateFile OS="Any" CompressedSize="893634" UncompressedSize="2119925"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
   <Licenses>
    <License file="license.txt" name="License Agreement"/>
   </Licenses>
-  <SHA1>f4232df182dd05bffa9660664636da3b689591fd</SHA1>
+  <SHA1>ba6f40f59af1d76785eab8a75ae84e26f4cd59c2</SHA1>
  </PackageUpdate>
- <SHA1>0ffc8c0fb123bd8aee19397fb80f4b6911e8cc64</SHA1>
- <MetadataName>2023-12-10-0753_meta.7z</MetadataName>
+ <SHA1>7ee41dc3f8781a2abf7f1086e87cd107596562ce</SHA1>
+ <MetadataName>2023-12-10-0832_meta.7z</MetadataName>
 </Updates>
