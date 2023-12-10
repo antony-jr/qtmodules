@@ -1,10 +1,10 @@
 function Component() {
-    var qtVersion = qtversion();
+    //var qtVersion = qtversion();
 
     // Log the Qt version to the installer log
-    installer.setValue("QtVersion", qtVersion);
-    console.log("Qt version: " + qtVersion);
-    var path = "@RootDir@/" + qtVersion;
+    //installer.setValue("QtVersion", qtVersion);
+    //console.log("Qt version: " + qtVersion);
+    var path = "@RootDir@\\5.15.*";
 
     console.log("Path: " + path);
 
