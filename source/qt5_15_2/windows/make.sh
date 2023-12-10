@@ -3,7 +3,7 @@
 #TODO: Change the tag to latest once finished
 QARCHIVE_VERSION=$(curl  "https://api.github.com/repos/antony-jr/QArchive/tags" | jq -r '.[0].name' | cut -c 2-)
 
-wget -O data.zip "https://github.com/antony-jr/QArchive/releases/download/prebuilt/windows-msvc-qt-5.15.2-x64-Release.zip"
+wget -O data.zip "https://github.com/antony-jr/QArchive/releases/download/prebuilt/windows-msvc-v14.2-qt-5.15.2-x64-Release.zip"
 wget -O archive.zip "https://github.com/antony-jr/libarchive-windows-prebuilds/releases/download/continuous/libarchive-x64-windows.zip"
 
 cp data.zip packages/in.antonyjr.QArchive.windows.x64.msvc2019/data/msvc2019_64/
