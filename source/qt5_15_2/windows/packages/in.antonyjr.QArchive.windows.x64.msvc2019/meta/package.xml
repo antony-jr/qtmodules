@@ -7,8 +7,5 @@
     <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
     <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
     <Virtual>True</Virtual>
-    <Licenses>
-        <License name="License Agreement" file="license.txt" />
-    </Licenses>
     <Script>installscript.js</Script>
 </Package>

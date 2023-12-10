@@ -1,15 +1,36 @@
 function Component() {
-    //var qtVersion = qtversion();
-
-    // Log the Qt version to the installer log
-    //installer.setValue("QtVersion", qtVersion);
-    //console.log("Qt version: " + qtVersion);
     var path = installer.value("InstallerDirPath");
 
     if (installer.fileExists("5.15.2")) {
         path = path + "/5.15.2";
     } else if(installer.fileExists("5.15.3")) {
         path = path + "/5.15.3";   
+    } else if(installer.fileExists("5.15.4")) {
+        path = path + "/5.15.4";    
+    } else if(installer.fileExists("5.15.5")) {
+        path = path + "/5.15.5";    
+    } else if(installer.fileExists("5.15.6")) {
+        path = path + "/5.15.6";    
+    } else if(installer.fileExists("5.15.7")) {
+        path = path + "/5.15.7";    
+    } else if(installer.fileExists("5.15.8")) {
+        path = path + "/5.15.8";    
+    } else if(installer.fileExists("5.15.9")) {
+        path = path + "/5.15.9";    
+    } else if(installer.fileExists("5.15.10")) {
+        path = path + "/5.15.10";    
+    } else if(installer.fileExists("5.15.11")) {
+        path = path + "/5.15.11";    
+    } else if(installer.fileExists("5.15.12")) {
+        path = path + "/5.15.12";    
+    } else if(installer.fileExists("5.15.13")) {
+        path = path + "/5.15.13";    
+    } else if(installer.fileExists("5.15.14")) {
+        path = path + "/5.15.14";    
+    } else if(installer.fileExists("5.15.15")) {
+        path = path + "/5.15.15";    
+    } else if(installer.fileExists("5.15.16")) {
+        path = path + "/5.15.16";    
     } else {
         path = path + "/QArchive";
     }

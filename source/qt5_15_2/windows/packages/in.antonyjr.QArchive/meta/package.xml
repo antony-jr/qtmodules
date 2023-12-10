@@ -8,6 +8,6 @@
     <Default>script</Default>
     <Script>installscript.js</Script>
     <Licenses>
-        <License name="QArchive License Agreement" file="qarchive_license.txt" />
+        <License name="QArchive License Agreement" file="QARCHIVE_LICENSE.txt" />
     </Licenses> 
  </Package>
