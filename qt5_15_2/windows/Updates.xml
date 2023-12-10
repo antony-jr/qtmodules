@@ -1,0 +1,49 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>in.antonyjr.libarchive.windows.x64.msvc2019</Name>
+  <DisplayName>LibArchive - MSVC 2019</DisplayName>
+  <Description>LibArchive (Prebuilt for MSVC 2019)</Description>
+  <Version>3.6.2</Version>
+  <ReleaseDate>2023-12-10</ReleaseDate>
+  <Virtual>True</Virtual>
+  <Script>installscript.js</Script>
+  <UpdateFile CompressedSize="9334525" UncompressedSize="46764116" OS="Any"/>
+  <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
+  <Licenses>
+   <License file="LIBARCHIVE_LICENSE.txt" name="LibArchive License Agreement"/>
+  </Licenses>
+  <SHA1>4581daeed6d14ae92bf90dabcef6ffa722234c87</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>in.antonyjr.QArchive</Name>
+  <DisplayName>QArchive (Windows MSVC)</DisplayName>
+  <Description>Qt Wrapper for LibArchive (Prebuilt for Windows MSVC)</Description>
+  <Version>2.2.8</Version>
+  <ReleaseDate>2023-12-10</ReleaseDate>
+  <Default>script</Default>
+  <Script>installscript.js</Script>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  <Licenses>
+   <License file="QARCHIVE_LICENSE.txt" name="QArchive License Agreement"/>
+  </Licenses>
+  <SHA1>54ea8455144f5a44c798db6b1eae64804df4244b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
+  <DisplayName>QArchive - MSVC 2019</DisplayName>
+  <Description>Qt Wrapper for LibArchive (Prebuilt for MSVC 2019 - Release)</Description>
+  <Version>2.2.8</Version>
+  <ReleaseDate>2023-12-10</ReleaseDate>
+  <Virtual>True</Virtual>
+  <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
+  <Script>installscript.js</Script>
+  <UpdateFile CompressedSize="892167" UncompressedSize="2120237" OS="Any"/>
+  <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
+  <SHA1>177519dbe55b384da25df155e492708f31979439</SHA1>
+ </PackageUpdate>
+ <SHA1>fed1ee88c167229219acd0ac275a9e0963f25943</SHA1>
+ <MetadataName>2023-12-10-1710_meta.7z</MetadataName>
+</Updates>
