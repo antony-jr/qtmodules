@@ -3,47 +3,75 @@
  <ApplicationVersion>1.0.0</ApplicationVersion>
  <Checksum>true</Checksum>
  <PackageUpdate>
+  <Name>in.antonyjr.libarchive.windows.x64.msvc2015</Name>
+  <DisplayName>LibArchive - MSVC 2015</DisplayName>
+  <Description>LibArchive (Prebuilt for MSVC 2015)</Description>
+  <Version>3.6.2</Version>
+  <ReleaseDate>2023-12-11</ReleaseDate>
+  <Virtual>True</Virtual>
+  <Script>installscript.js</Script>
+  <UpdateFile UncompressedSize="21395103" CompressedSize="4483897" OS="Any"/>
+  <DownloadableArchives>msvc2015_64.7z</DownloadableArchives>
+  <Licenses>
+   <License name="LibArchive License Agreement" file="LIBARCHIVE_LICENSE.txt"/>
+  </Licenses>
+  <SHA1>310896783c6a713e4f295e308ae255c8d1f294fa</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
   <Name>in.antonyjr.libarchive.windows.x64.msvc2019</Name>
   <DisplayName>LibArchive - MSVC 2019</DisplayName>
   <Description>LibArchive (Prebuilt for MSVC 2019)</Description>
   <Version>3.6.2</Version>
-  <ReleaseDate>2023-12-10</ReleaseDate>
+  <ReleaseDate>2023-12-11</ReleaseDate>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="21395103" CompressedSize="4483892" OS="Any"/>
+  <UpdateFile UncompressedSize="21395103" CompressedSize="4483899" OS="Any"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
   <Licenses>
-   <License file="LIBARCHIVE_LICENSE.txt" name="LibArchive License Agreement"/>
+   <License name="LibArchive License Agreement" file="LIBARCHIVE_LICENSE.txt"/>
   </Licenses>
-  <SHA1>29ac285730fe35c3a37a7b1482413b676f780b3c</SHA1>
+  <SHA1>c67aaf8efe71947e3cb6dee5ac09694c5a6add80</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive</Name>
   <DisplayName>QArchive (Windows MSVC)</DisplayName>
   <Description>Qt Wrapper for LibArchive (Prebuilt for Windows MSVC)</Description>
-  <Version>2.2.8</Version>
-  <ReleaseDate>2023-12-10</ReleaseDate>
+  <Version>2.2.9</Version>
+  <ReleaseDate>2023-12-11</ReleaseDate>
   <Default>script</Default>
   <Script>installscript.js</Script>
   <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
   <Licenses>
-   <License file="QARCHIVE_LICENSE.txt" name="QArchive License Agreement"/>
+   <License name="QArchive License Agreement" file="QARCHIVE_LICENSE.txt"/>
   </Licenses>
-  <SHA1>030495b8647457fd0af622168a507a5d3e5c0d43</SHA1>
+  <SHA1>55dd5e2a2a6deb5843d82679629a4d2982d31bc9</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>in.antonyjr.QArchive.windows.x64.msvc2015</Name>
+  <DisplayName>QArchive - MSVC 2015</DisplayName>
+  <Description>Qt Wrapper for LibArchive (Prebuilt for MSVC 2015 - Release)</Description>
+  <Version>2.2.9</Version>
+  <ReleaseDate>2023-12-11</ReleaseDate>
+  <Virtual>True</Virtual>
+  <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2015</Dependencies>
+  <Script>installscript.js</Script>
+  <UpdateFile UncompressedSize="2120237" CompressedSize="892541" OS="Any"/>
+  <DownloadableArchives>msvc2015_64.7z</DownloadableArchives>
+  <SHA1>00880b68ffc1249bb408c29c916dbced6c28b61b</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
   <DisplayName>QArchive - MSVC 2019</DisplayName>
   <Description>Qt Wrapper for LibArchive (Prebuilt for MSVC 2019 - Release)</Description>
-  <Version>2.2.8</Version>
-  <ReleaseDate>2023-12-10</ReleaseDate>
+  <Version>2.2.9</Version>
+  <ReleaseDate>2023-12-11</ReleaseDate>
   <Virtual>True</Virtual>
   <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="2120237" CompressedSize="892169" OS="Any"/>
+  <UpdateFile UncompressedSize="2120237" CompressedSize="892166" OS="Any"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
-  <SHA1>77d4f2bec9bc3d29d25459368d3fa17768b020ed</SHA1>
+  <SHA1>c8051314e2e1186a5c491e0d124240e3a287a244</SHA1>
  </PackageUpdate>
- <SHA1>f364e205bfbfa4b50cfa56d9153752edf23c22de</SHA1>
- <MetadataName>2023-12-11-0921_meta.7z</MetadataName>
+ <SHA1>d44ca7e77fdf5d9c4e014f224db5c37d49e262d6</SHA1>
+ <MetadataName>2023-12-11-1400_meta.7z</MetadataName>
 </Updates>
