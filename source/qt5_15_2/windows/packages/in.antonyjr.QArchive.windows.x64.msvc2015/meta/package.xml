@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+   <DisplayName>QArchive - MSVC 2015</DisplayName>
+   <Description>Qt Wrapper for LibArchive (Prebuilt for MSVC 2015 - Release)</Description>
+   <Version>2.2.8</Version>
+   <ReleaseDate>2023-12-10</ReleaseDate>
+   <Name>in.antonyjr.QArchive.windows.x64.msvc2015</Name>
+   <Virtual>True</Virtual>
+   <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2015</Dependencies>
+   <Script>installscript.js</Script>
+</Package>
