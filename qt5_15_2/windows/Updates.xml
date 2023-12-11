@@ -10,12 +10,12 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Virtual>True</Virtual>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="21395103" CompressedSize="4483892" OS="Any"/>
+  <UpdateFile UncompressedSize="21395103" OS="Any" CompressedSize="4483901"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
   <Licenses>
-   <License name="LibArchive License Agreement" file="LIBARCHIVE_LICENSE.txt"/>
+   <License file="LIBARCHIVE_LICENSE.txt" name="LibArchive License Agreement"/>
   </Licenses>
-  <SHA1>621ff0a8978ad7adb8d6fb9a7bf3dd88779b8bf1</SHA1>
+  <SHA1>3175b04cbf0582250d947bd20840505fed477255</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive</Name>
@@ -25,11 +25,11 @@
   <ReleaseDate>2023-12-10</ReleaseDate>
   <Default>script</Default>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="0" CompressedSize="0" OS="Any"/>
+  <UpdateFile UncompressedSize="0" OS="Any" CompressedSize="0"/>
   <Licenses>
-   <License name="QArchive License Agreement" file="QARCHIVE_LICENSE.txt"/>
+   <License file="QARCHIVE_LICENSE.txt" name="QArchive License Agreement"/>
   </Licenses>
-  <SHA1>c987c2f3c54449766877be75eb9061b72315e495</SHA1>
+  <SHA1>de1eadd7922a367254a740170da1d7383101bbc3</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
@@ -40,10 +40,10 @@
   <Virtual>True</Virtual>
   <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>
   <Script>installscript.js</Script>
-  <UpdateFile UncompressedSize="2120237" CompressedSize="892168" OS="Any"/>
+  <UpdateFile UncompressedSize="2120237" OS="Any" CompressedSize="892166"/>
   <DownloadableArchives>msvc2019_64.7z</DownloadableArchives>
-  <SHA1>929d83e8b36bdeabc7de71b9b6e461c74200420f</SHA1>
+  <SHA1>ad51a77eef3e6b57455eb0fcb81ab459679e2583</SHA1>
  </PackageUpdate>
- <SHA1>b8d9153b5b7b4a77ec6ac0bd6e6f8380eca524bf</SHA1>
- <MetadataName>2023-12-11-0425_meta.7z</MetadataName>
+ <SHA1>2dfd18ff44952769899710d12180c0d8cd2b6c6c</SHA1>
+ <MetadataName>2023-12-11-0738_meta.7z</MetadataName>
 </Updates>
