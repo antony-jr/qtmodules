@@ -32,6 +32,20 @@ def update_version_xml(file, version):
     with open(file, 'a+') as f:
         f.write('\n')
 
+def get_dirs_with_prefix(directory, prefix):
+  dirs = []
+  for entry in os.listdir(directory):
+    if os.path.isdir(os.path.join(directory, entry)) and entry.startswith(prefix):
+      dirs.append(entry)
+  return dirs
+
+def update_packages(pkgdir, prefix, version):
+    pkgs = get_dirs_with_prefix(pkgdir, prefix)
+    for pkg in pkgs:
+        path = "{}/{}/meta/package.xml".format(pkgdir, pkg)
+        print("[+] UPDATING: {}".format(path))
+        update_version_xml(path, version)
+
 # Default Values
 QARCHIVE_VERSION="2.2.8"
 LIBARCHIVE_VERSION="3.6.2"
@@ -61,6 +75,13 @@ print("LIBARCHIVE_VERSION = {}".format(LIBARCHIVE_VERSION))
 
 # TODO:
 # Update this as the repos grow
-update_version_xml("source/qt5_15_2/windows/packages/in.antonyjr.QArchive/meta/package.xml", QARCHIVE_VERSION)
-update_version_xml("source/qt5_15_2/windows/packages/in.antonyjr.QArchive.windows.x64.msvc2019/meta/package.xml", QARCHIVE_VERSION)
-update_version_xml("source/qt5_15_2/windows/packages/in.antonyjr.libarchive.windows.x64.msvc2019/meta/package.xml", LIBARCHIVE_VERSION)
+
+pkgdirs = [
+        "source/qt5_15_2/windows",
+]
+
+for pkgdir in pkgdirs:
+    update_packages(pkgdir + "/packages", "in.antonyjr.QArchive", QARCHIVE_VERSION)
+    update_packages(pkgdir + "/packages", "in.antonyjr.libarchive", LIBARCHIVE_VERSION)
+
+print("\nDone.")

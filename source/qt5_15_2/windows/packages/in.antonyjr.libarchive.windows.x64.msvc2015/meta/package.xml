@@ -3,7 +3,7 @@
     <DisplayName>LibArchive - MSVC 2015</DisplayName>
     <Description>LibArchive (Prebuilt for MSVC 2015)</Description>
     <Version>3.6.2</Version>
-    <ReleaseDate>2023-12-10</ReleaseDate>
+    <ReleaseDate>2023-12-11</ReleaseDate>
     <Name>in.antonyjr.libarchive.windows.x64.msvc2015</Name>
     <Virtual>True</Virtual>
     <Licenses>

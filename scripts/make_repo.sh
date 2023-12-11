@@ -17,9 +17,7 @@ pushd source/qt5_15_2/windows
 
 popd 
 
-repogen -p source/qt5_15_2/windows/packages \
-   	-i in.antonyjr.QArchive,in.antonyjr.QArchive.windows.x64.msvc2019,in.antonyjr.libarchive.windows.x64.msvc2019 \
-	repositories/qt5_15_2/windows/
+repogen -p source/qt5_15_2/windows/packages repositories/qt5_15_2/windows/
 
 
 pushd source/qt5_15_2/windows

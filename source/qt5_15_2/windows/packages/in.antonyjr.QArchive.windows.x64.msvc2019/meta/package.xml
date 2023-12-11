@@ -2,8 +2,8 @@
 <Package>
    <DisplayName>QArchive - MSVC 2019</DisplayName>
    <Description>Qt Wrapper for LibArchive (Prebuilt for MSVC 2019 - Release)</Description>
-   <Version>2.2.8</Version>
-   <ReleaseDate>2023-12-10</ReleaseDate>
+   <Version>2.2.9</Version>
+   <ReleaseDate>2023-12-11</ReleaseDate>
    <Name>in.antonyjr.QArchive.windows.x64.msvc2019</Name>
    <Virtual>True</Virtual>
    <Dependencies>in.antonyjr.libarchive.windows.x64.msvc2019</Dependencies>

@@ -2,8 +2,8 @@
 <Package>
    <DisplayName>QArchive (Windows MSVC)</DisplayName>
    <Description>Qt Wrapper for LibArchive (Prebuilt for Windows MSVC)</Description>
-   <Version>2.2.8</Version>
-   <ReleaseDate>2023-12-10</ReleaseDate>
+   <Version>2.2.9</Version>
+   <ReleaseDate>2023-12-11</ReleaseDate>
    <Name>in.antonyjr.QArchive</Name>
    <Default>script</Default>
    <Script>installscript.js</Script>
